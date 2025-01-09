@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Real-Time System Metrics Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/metrics.css') }}">
+</head>
+
+<body>
+  <h1>Real-Time System Metrics Dashboard</h1>
+
+  <div class="metrics-summary" id="currentMetrics">
+    <div class="metric-item">
+      <strong>Network Sent:</strong> <span id="networkSent">-</span> MB
+    </div>
+    <div class="metric-item">
+      <strong>Disk Write:</strong> <span id="diskWrite">-</span> MB
+    </div>
+    <div class="metric-item">
+      <strong>CPU Usage:</strong> <span id="currentCPU">-</span>%
+    </div>
+    <div class="metric-item">
+      <strong>Memory Usage:</strong> <span id="currentMemory">-</span>%
+    </div>
+    <div class="metric-item">
+      <strong>Memory Used:</strong> <span id="memoryUsed">-</span> GB
+    </div>
+  </div>
+
+  <div class="charts-container">
+    <div class="top-charts">
+      <div class="chart-card">
+        <h2>Network I/O (MB)</h2>
+        <canvas id="networkChart"></canvas>
+      </div>
+      <div class="chart-card">
+        <h2>Disk I/O (MB)</h2>
+        <canvas id="diskChart"></canvas>
+      </div>
+    </div>
+    <div class="bottom-charts">
+      <div class="chart-card">
+        <h2>CPU Usage (%)</h2>
+        <canvas id="cpuChart"></canvas>
+      </div>
+      <div class="chart-card">
+        <h2>Memory Usage (%)</h2>
+        <canvas id="memoryChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/metrics.js') }}"></script>
+</body>
+
+</html>
