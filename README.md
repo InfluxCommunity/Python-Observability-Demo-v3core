@@ -31,7 +31,7 @@ A comprehensive system observability dashboard built with Python (Flask), Influx
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/python-observability-dashboard.git
+git clone https://github.com/InfluxCommunity/Python-Observability-Demo-v3core/tree/main
 cd python-observability-dashboard
 
 ### 2. Create Virtual Enviornment
