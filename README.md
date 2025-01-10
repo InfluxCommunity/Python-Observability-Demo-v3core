@@ -33,6 +33,7 @@ A comprehensive system observability dashboard built with Python (Flask), Influx
 ```bash
 git clone https://github.com/InfluxCommunity/Python-Observability-Demo-v3core/tree/main
 cd python-observability-dashboard
+```
 
 ### 2. Create Virtual Enviornment
 
@@ -41,19 +42,19 @@ cd python-observability-dashboard
 python3 -m venv .venv
 ```
 
-### 2. Activate the virtual environment
+### 3. Activate the virtual environment
 
 ```
 source .venv/bin/activate
 ```
 
-### 3. Install dependencies including InfluxDB 3 Core
+### 4. Install dependencies including InfluxDB 3 Core
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run the app
+### 5. Run the app
 
 ```bash
 python app.py
