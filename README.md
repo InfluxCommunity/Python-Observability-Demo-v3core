@@ -32,7 +32,7 @@ A comprehensive system observability dashboard built with Python (Flask), Influx
 
 ```bash
 git clone https://github.com/InfluxCommunity/Python-Observability-Demo-v3core/tree/main
-cd python-observability-dashboard
+cd Python-Observability-Demo-v3core
 ```
 
 ### 2. Create Virtual Enviornment
