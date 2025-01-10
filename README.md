@@ -12,13 +12,13 @@ A comprehensive system observability dashboard built with Python (Flask), Influx
 - Time-series metrics storage with InfluxDB
 - Lightweight and extensible observability solution
 
-## 🛠 Prerequisites
+## Prerequisites
 
 - Python 3.10+
 - InfluxDB 3 Core
 - macOS, Linux, or Windows
 
-## 🚀 Technology Stack
+## Technology Stack
 
 - **Backend**: Flask
 - **Metrics Database**: InfluxDB v3
@@ -26,7 +26,7 @@ A comprehensive system observability dashboard built with Python (Flask), Influx
 - **Frontend**: Chart.js
 - **Visualization**: Real-time web dashboard
 
-## Setup, Install & Run
+## 🛠 Setup, Install & Run
 
 ### 1. Clone the Repository
 
