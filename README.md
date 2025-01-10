@@ -54,6 +54,12 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+##### Download InfluxDB 3 Core shell script and run it to install the database
+
+```
+sh install_InfluxDB_3_Core.sh
+```
+
 ### 5. Run the app
 
 ```bash
